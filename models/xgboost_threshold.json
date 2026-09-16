@@ -1,0 +1,8 @@
+{
+    "model": "XGBoost",
+    "threshold": 0.03299999999999998,
+    "selection_metric": "F1",
+    "validation_precision": 0.968503937007874,
+    "validation_recall": 0.49298597194388777,
+    "validation_f1": 0.6533864541832669
+}
