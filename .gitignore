@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Data
+data/raw/*
+data/processed/*
+
+# Trained models
+models/*.keras
+models/*.h5
+models/*.pkl
+models/*.joblib
+models/*.json
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
